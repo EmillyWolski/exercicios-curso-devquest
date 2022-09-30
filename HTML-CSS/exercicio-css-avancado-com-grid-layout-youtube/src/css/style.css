@@ -1,0 +1,75 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #F7F7F7;
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "video-destaque propaganda"
+                        "video-destaque videos-sugeridos";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    gap: 20px;
+    padding: 35px;
+}
+
+/* com max-width definimos uma largura máxima de 900px,
+se for abaixo disso, ele vai pegar uma largura de 100% */
+
+/* para conseguir fazer um layout de áreas diferentes, usamos o  
+
+grid-template-areas: "video-destaque propaganda"
+                     "video-destaque videos-sugeridos"; que recebe o nome 
+                     das divs que definimos especificamente para cada destaque */
+
+
+
+/* VIDEO DESTAQUE */
+
+.video-destaque{
+    grid-area: video-destaque;
+}
+
+.video-destaque img{
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.video-destaque .titulo{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.video-destaque .visualizacoes{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+
+/* PROPAGANDA */
+.propaganda{
+    grid-area: propaganda;
+}
+
+
+/* VIDEOS SUGERIDOS */
+.videos-sugeridos{
+    grid-area: videos-sugeridos;
+}
+
+.videos-sugeridos .video{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.videos-sugeridos .video .titulo{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videos-sugeridos .video p{
+    font-size:11px;
+    margin-bottom: 5px;
+}

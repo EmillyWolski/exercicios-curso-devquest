@@ -1,0 +1,57 @@
+html{
+    font-family: 'Public Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fizemos essas definições do main para a responsividade, dessa forma 
+os itens dentro da main vão estar centralizados na página mesmo que em 
+resoluções diferentes. */
+
+.pinturas{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* gap é o espaço entre as imagens */
+/* wrap quebra as imagens */
+
+.pinturas .pintura{
+    width: 334px;
+    height: 430px;
+    position: relative;
+}
+
+/* Para colocar as informações em cima da imagem: define relative na div pai e 
+absolute na classe filha. Depois ajusta com o bottom. */
+
+.pinturas .pintura img{
+    width: 100%;
+}
+
+.pinturas .pintura .informacoes{
+    position: absolute;
+    color: #ffff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.pinturas .pintura .informacoes .titulo{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.pinturas .pintura .informacoes .subtitulo{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+
+

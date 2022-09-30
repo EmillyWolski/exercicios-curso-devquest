@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.quadrados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.quadradoAzul{
+    background: blue;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.quadradoVermelho{
+    background: red;
+    width: 150px;
+    height: 150px;
+}
+
+.quadradoAmarelo{
+    background: yellow;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.botao{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.botao #btn-trocar-cor{
+    width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+

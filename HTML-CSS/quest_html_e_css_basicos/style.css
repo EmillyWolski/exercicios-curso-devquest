@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    color: rgb(129, 23, 143);
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    margin-top: 60px;
+    margin-left: -300px;
+}
+
+
+/* TABELA MODA */
+
+.tabelaModa{
+   margin: auto;
+}
+
+.cabecalho th{
+    width: 100px;
+    margin: 30px 30px 30px 30px;
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color:#BB86FC;
+    text-align: center;
+    color: white;
+    
+}
+
+.conteudo td{
+    border: 2px solid #ffffff;
+    padding: 10px;
+    text-align: justify;
+    background-color:  #424250;
+    color: white;
+}
+
+
+/* TABELA CASA */
+
+.tabelaCasa{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 575px;
+ }
+ 
+ .cabecalhoCasa th{
+     width: 100px;
+     margin: 30px 30px 30px 30px;
+     border: 2px solid #ffffff;
+     border-collapse: collapse;
+     padding: 10px;
+     background-color: #00C4B4;
+     text-align: center;
+     color: white;
+     
+ }
+ 
+ .conteudoCasa td{
+     border: 2px solid #ffffff;
+     padding: 10px;
+     text-align: justify;
+     background-color:  #424250;
+     color: white;
+ }
