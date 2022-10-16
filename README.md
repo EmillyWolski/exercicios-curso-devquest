@@ -9,7 +9,6 @@ O curso DevQuest é focado no ensino desde o básico até o avançado de tecnolo
 <br>
 
 Ao longo dos módulos, novos conteúdos serão estudados, postos em prática e disponibilizados neste repositório, com pequenos resumos e exercícios.
-
 <br>
 
 ### Tecnologias que serão utilizadas 📌
